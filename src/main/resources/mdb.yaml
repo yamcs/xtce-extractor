@@ -1,0 +1,4 @@
+UT:
+    - type: org.yamcs.xtce.XtceLoader
+      args: 
+         file: "mdb/xtce_v12_UT.xml"
