@@ -17,7 +17,7 @@
     <dependency>
     	<groupId>org.yamcs</groupId>
     	<artifactId>yamcs-core</artifactId>
-    	<version>0.29.5-SNAPSHOT</version>
+    	<version>3.4.0</version>
     </dependency>
   </dependencies>
 
@@ -48,7 +48,6 @@
 		      <excludes>
 			<exclude>junit:junit</exclude>
 			<exclude>org.rocksdb:*</exclude>
-			<exclude>org.hornetq:*</exclude>
 			<exclude>net.sourceforge.jexcelapi:*</exclude>
 			<exclude>log4j:*</exclude>
 			<exclude>io.protostuff:*</exclude>
@@ -58,7 +57,7 @@
 			<exclude>net.sourceforge.jdatepicker:*</exclude>
 			<exclude>org.jgroups:*</exclude>			
 			<exclude>org.jboss.logging:*</exclude>			
-			<exclude>janino:*</exclude>			
+			<exclude>org.codehaus.janino:*</exclude>			
 		      </excludes>
               </artifactSet>
 
