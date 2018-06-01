@@ -21,7 +21,7 @@ public class XtceExtractor {
         XtceTmExtractor tmExtractor=new XtceTmExtractor(xtcedb);
         
         //instruct the tm extractor to provide all parameters
-        tmExtractor.startProvidingAll();
+        tmExtractor.provideAll();
         byte[] p1 = new byte[] {(byte)0xA7, //SyncByte1
                                 (byte)0xF3, //SyncByte2
                                 (byte)((5<<5)|31), //SubsystemID
