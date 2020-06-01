@@ -1,3 +1,7 @@
+**Content of this repo was transferred to main repo: https://github.com/yamcs/yamcs/blob/master/examples/snippets/src/main/java/org/yamcs/examples/snippets/XtceDecodingSnippet.java**
+
+-------
+
 This directory contains a simple example on how to use  Yamcs as a XTCE TM Packet processor library.
 The example consists of just one file with a main function:
 
